@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ES6",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "app",
+    "lib",
+    "components",
+    "public",
+    "public/img",
+    "styles",
+    "types",
+    ".next/types/**/*.ts"
+  ],
+  "composite": true,
+  "module": "ESNext",
+  "moduleResolution": "Node",
+  "allowSyntheticDefaultImports": true,
+  "exclude": [
+    "node_modules"
+  ]
+}
