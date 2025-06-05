@@ -3,7 +3,8 @@ import "reflect-metadata";
 import Dashboard from "./Dashboard/page";
 import TeacherLu from "./TeacherLu/page";
 import UserManagePage from "./user/page";
-import LoginPage from "./login/page";
+// import LoginPage from "./login/page";
+import AuthPage from "./Dashboard/components/json/page";
 
 /*
   UserManagePage：用户管理
@@ -15,7 +16,7 @@ import LoginPage from "./login/page";
 export default function Home() {
   return (
     <>
-      <Dashboard />
+      <AuthPage />
     </>    
   )
 }
