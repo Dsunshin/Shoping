@@ -5,6 +5,7 @@ import TeacherLu from "./TeacherLu/page";
 import UserManagePage from "./user/page";
 // import LoginPage from "./login/page";
 import AuthPage from "./Dashboard/components/json/page";
+import Shouye from "./Shouye/zhuye";
 
 /*
   UserManagePage：用户管理
@@ -16,7 +17,7 @@ import AuthPage from "./Dashboard/components/json/page";
 export default function Home() {
   return (
     <>
-      <AuthPage />
+      <Shouye />
     </>    
   )
 }
